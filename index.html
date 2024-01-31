@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/66dfcf8c87.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="first">
+            <nav>
+                <img src="" alt="">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contactme">Contact me</a></li>
+                </ul>
+            </nav>
+            <div class="second">
+                <h1>Hi, I'm <span>Adrika</span></h1>
+                <p>This is my official portfolio website that shows all
+                    <br> the details and work experience on Web Development
+                </p>
+                <a href="Adrika Sarkar Resume.pdf" download class="btn btn2">DOWNLOAD RESUME</a>
+            </div>
+            <div class="images">
+                <!-- <img src="leaf.png" class="leaf"> -->
+                <img src="me3.jpg" class="me">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pink2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Persistent and driven web development enthusiast, showcasing a growing proficiency in HTML, CSS,
+                        and foundational JavaScript through dedicated learning efforts.Eager to contribute to
+                        collaborative projects, work alongside seasoned developers, and pursue continuous growth in the
+                        dynamic field of web development.
+                        Known for a resilient attitude, attention to detail, and a genuine passion for crafting
+                        compelling and user-centric digital experiences.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>Javascript</span></li>
+                            <li><span>Java</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>C/C++</span></li>
+
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>University</span><br>North Eastern Hill University</li>
+                            <li><span>Higher Secondary</span><br>Sri Krishna Mission School</li>
+                            <li><span>Secondary</span><br>Holy Cross School</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Hands-on training in JAVA</span></li>
+                            <li><span>Project Development:Successfully executed Front-end website</span></li>
+
+
+
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------projects--------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="project-list">
+
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
+                    <h2>Weather Forecast Website</h2>
+                    <p>Designed and developed a user-friendly weather website using HTML, CSS, and JavaScript.
+                        Integrated OpenWeatherMap API to dynamically fetch and display real-time weather data for
+                        user-specified cities. Demonstrated proficiency in front-end technologies and API integration
+                        for creating an intuitive and visually appealing weather application."</p>
+                </div>
+                <div>
+                    <i class="fa-regular fa-file"></i>
+                    <h2>My portfolio</h2>
+                    <p>Developed a professional and visually appealing personal portfolio website using HTML and CSS to
+                        showcase my skills, projects, and achievements. Implemented a clean and responsive design to
+                        ensure optimal viewing across various devices.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-n"></i>
+                    <h2>Homepage of Netflix</h2>
+                    <p>Designed and developed a visually appealing and responsive homepage for a streaming service,
+                        inspired by the aesthetics of Netflix. Implemented clean and efficient HTML and CSS code to
+                        create an intuitive user interface.Demonstrated a keen eye for detail and a commitment to
+                        delivering an aesthetically pleasing and user-centric web experience. </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- -------------contact me--------------- -->
+    <div id="contactme">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> adrikasarkar9@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 6033241418</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/adrikasarkar" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                </div>
+                <!-- <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div> -->
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> | Adrika Sarkar</p>
+            
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+
+       
+    </script>
+</body>
+
+</html>
